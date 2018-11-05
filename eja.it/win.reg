@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Connection Wizard]
+"Completed"=hex:01,00,00,00
+;"DesktopChanged"=dword:00000001
+

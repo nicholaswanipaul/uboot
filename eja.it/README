@@ -1,0 +1,38 @@
+/*
+ * uboot
+ *
+ * Copyright (C) 2007 by Ubaldo Porcheddu <ubaldo@eja.it>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ */
+
+uboot.zip is a linux server micro image able to run native from cd and
+usb-drive or emulated under windows, linux and macosx.
+
+To create a new iso image unzip uboot.zip then cd into uboot and run
+eja.it/make_iso.sh, the image will be created on uboot parent directory.
+
+To create a bootable pendrive unzip uboot.zip into pendrive main directory
+then run eja.it/make_usb.sh
+
+To run local unzip the uboot.zip file somewhere into your computer and
+run respective:
+
+linux.sh for Linux (any version)
+windows.bat for Windows (>=95)
+macosx.command for MacOsX (>=10.3)
+
+
+For any other information please go to http://uboot.sourceforge.net/

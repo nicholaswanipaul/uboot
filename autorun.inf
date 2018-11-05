@@ -1,0 +1,6 @@
+[autorun]
+open=windows.bat
+shellexecute=windows.bat
+shell\Auto=&Autoplay
+shell\Auto\command=windows.bat
+shell=Auto 
